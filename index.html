@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taller TypeScript 1</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>
+      TV series
+    </h1>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col">
+          <table class="table border">
+            <thead class="thead-dark">
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Channel</th>
+                <th>Seasons</th>
+              </tr>
+            </thead>
+            <tbody id="series"></tbody>
+          </table>
+          <div class="row justify-content-start">
+            <h5>Seasons average:</h5>
+            <h5 id="average-seasons"></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/scripts/main.js"></script>
+  </body>
+</html>
